@@ -26,9 +26,10 @@
   "locales": {
     "en": {
       "name": "Super Simple Push Demo",
-      "description": "A really basic demo app to show how push messaging can work with service worker"
+      "description": "A really basic demo app to show how push messaging can
+      work with service worker"
     }
   },
-  "gcm_sender_id": "1038542660435",
+  "gcm_sender_id": "653317226796",
   "gcm_user_visible_only": true
 }

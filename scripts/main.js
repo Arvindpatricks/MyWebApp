@@ -312,7 +312,7 @@ window.addEventListener('load', function() {
   });
 
   // Register the Service Worker
-  navigator.serviceWorker.register('./sw.js')
+  navigator.serviceWorker.register('/sw.js')
     .then(function(registration) {
       // Registration worked :)
       console.log('registration = ', registration);
@@ -321,9 +321,8 @@ window.addEventListener('load', function() {
       //};
     })
     .catch(function(err) {
-      alert("FAILED");
       // Registration failed :(
-         // console.log(err);
+
       showError('Ooops a Service Worker Error', 'Whilst registering the  ' +
       'service worker, something caused an error and resulting in the ' +
       'service worker not getting installed. #NeedsABugFix.');
