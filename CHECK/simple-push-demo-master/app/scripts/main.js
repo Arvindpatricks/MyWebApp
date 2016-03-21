@@ -19,8 +19,8 @@
  *
  */
 
-import PushClient from './push-client.es6.js';
-
+//import PushClient from './push-client.es6.js';
+<script type="text/javascript" src="./push-client.es6.js" />
 var API_KEY = 'AIzaSyBBh4ddPa96rQQNxqiq_qQj7sq1JdsNQUQ';
 
 // Define a different server URL here if desire.
