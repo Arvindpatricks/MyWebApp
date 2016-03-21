@@ -19,7 +19,7 @@
  *
  */
 
-//import PushClient from './push-client.es6.js';
+import PushClient from './push-client.es6.js';
 
 var API_KEY = 'AIzaSyBBh4ddPa96rQQNxqiq_qQj7sq1JdsNQUQ';
 
